@@ -1,0 +1,27 @@
+.input-field {
+    font-size: 22px;
+    color: white;
+    font-weight: 500;
+    position: relative;
+}
+.input-field {
+    width: 100%;
+}
+input {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid white;
+    height: 26px;
+    font-size: 18px;
+    color: white;
+}
+
+.error-message{
+    color: rgb(97, 10, 10);
+    position: absolute;
+    bottom: 3px;
+    font-size: 14px;
+}

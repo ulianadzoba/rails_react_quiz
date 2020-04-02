@@ -1,0 +1,67 @@
+.table-header, .user-info {
+    display: flex;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.user-info:hover {
+    background-color: rgb(124, 145, 175);
+    transition: all 0.3s;
+}
+
+.table-header {
+    font-size: 24px;
+    font-weight: 500;
+    text-shadow: 2px 2px 3px rgb(178, 178, 212);
+}
+
+.table-header > div {
+    border: none;
+}
+.user-index {
+    width: 10%;
+    text-align: center;
+    border-top: 1px solid white;
+    padding: 5px;
+    border-right: 1px solid white;
+
+}
+.user-name, .user-email {
+    width: 45%;
+    text-align: center;
+    border-top: 1px solid white;
+    padding: 5px;
+}
+.user-name {
+    border-right: 1px solid white;
+}
+
+.pagination {
+    display: flex;
+    position: fixed;
+    color: white;
+    font-size: 24px;
+    left: 39%;
+    bottom: 60px;
+}
+
+.pagination .active {
+    background-color: rgb(71, 53, 70, 0.9);
+}
+
+.pagination a {
+    width: 60px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(71, 53, 70, 0.3);
+    border: 1px solid white;
+    cursor: pointer;
+}
+.pagination a:hover {
+    background-color: rgb(71, 53, 70, 0.5);
+    font-size: 28px;
+    transition: all 0.3s;
+}

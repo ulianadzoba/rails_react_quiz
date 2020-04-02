@@ -1,0 +1,54 @@
+.form-block {
+    padding-bottom: 100px;
+}
+label {
+    color: white;
+    font-size: 24px;
+}
+
+::placeholder {
+    color: silver;
+    font-size: 16px;
+}
+
+.error {
+    position: absolute;
+    color: rgb(88, 16, 16);
+    bottom: 0px;
+    font-size: 14px;
+}
+
+.status-message {
+    display: none;
+    padding: 0;
+    width: 48%;
+    margin-top: 10px;  
+    margin-bottom: 20px;
+}
+.status-message div {
+    border-radius: 5px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    color: white;
+    padding: 20px;
+    
+}
+.status-message .fail-message {
+    background-color: rgba(165, 59, 59, 0.3);
+}
+.status-message .success-message {
+    background-color: rgba(58, 133, 104, 0.3);
+}
+.success-message:hover {
+    background-color: rgb(58, 133, 104, 0.6);
+}
+.fail-message:hover {
+    background-color: rgb(165, 59, 59, 0.6);
+}
+
+.show-message {
+    display: block !important;
+}
+.loader {
+    padding-top: 300px;
+}

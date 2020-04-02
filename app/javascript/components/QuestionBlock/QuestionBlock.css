@@ -1,0 +1,31 @@
+.question {
+    padding-bottom: 200px;
+}
+
+.question-title {
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    width: 80%;
+}
+
+.current-question {
+    position: absolute;
+    right: 30px;
+    top: 25px;
+    color: white;
+    font-size: 18px;
+}
+
+.created {
+    letter-spacing: 1px;
+    color: white;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.created span {
+    letter-spacing: 4px;
+    font-size: 20px;
+    color: white;
+}

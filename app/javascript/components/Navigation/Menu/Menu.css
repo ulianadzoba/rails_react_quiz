@@ -1,0 +1,33 @@
+.quiz-menu {
+    height: 100vh;
+    width: 360px;
+    background-color: white;
+    position: absolute;
+    transition: transform .6s;
+    z-index: 9;
+}
+.hide-menu {
+    transform: translateX(-360px);
+    transition: transform .3s;
+}
+
+.menu-list {
+    font-size: 28px;
+    color: green;
+    text-decoration: none;
+}
+.menu-list > li {
+    list-style: none;
+    padding-top: 25px;
+    font-weight: 500;
+}
+
+.menu-list > li >a {
+    text-decoration: none;
+    color: rgb(39, 56, 73, 0.8);
+}
+
+.menu-list > li >a:hover {
+    text-decoration: none;
+    color: rgb(39, 56, 73, 0.5);
+}

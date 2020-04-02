@@ -1,0 +1,17 @@
+.menu-button {
+    z-index: 20;
+    color: white;
+    font-size: 38px !important;
+    position: fixed;
+    top: 20px;
+    left: 30px;
+    transition: all .4s;
+    text-shadow: 2px 2px 2px black;
+}
+.menu-button:hover {
+    opacity: 0.8;
+}
+
+.close {
+    left: 400px;
+}

@@ -1,0 +1,16 @@
+.quiz {
+    width: 100%;
+}
+.quiz-title {
+    text-align: center;
+    padding: 50px 0;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Lucida Sans' sans-serif;
+    color: white;
+    text-shadow: 2px 2px 3px rgb(34, 34, 56);
+}
+
+.quiz .loader {
+    padding-top: 140px !important;
+}

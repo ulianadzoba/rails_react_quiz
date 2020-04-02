@@ -1,0 +1,26 @@
+.answer-item {
+    list-style: none;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 10px 15px;
+    margin: 8px;
+    font-size: 22px;
+    color: white;
+    transition: all .2s linear;
+}
+
+.answer-item:hover {
+    background-color: rgb(58, 30, 56, 0.3);
+    /* box-shadow: 0 0 3px 4px rgba(165, 204, 226, 0.8); */
+    transition: all .1s linear;
+}
+
+.true {
+    background-color: rgb(40, 85, 40) !important;
+    transition: all .4s linear;
+}
+
+.false {
+    background-color: rgb(136, 36, 36)!important;
+    transition: all .4s linear;
+}

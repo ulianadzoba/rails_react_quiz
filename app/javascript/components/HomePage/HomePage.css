@@ -1,0 +1,36 @@
+.home-page-title {
+    color: white;
+    font-size: 64px;
+    text-align: center;
+    padding-top: 220px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 15px;
+    text-shadow: 2px 2px 2px black;
+}
+.home-buttons {
+    display: flex;
+    justify-content: center;
+}
+.home-button {  
+    text-align: center;
+    padding: 60px 10px;
+}
+
+.home-button button {
+    width: 210px;
+    height: 60px; 
+    font-size: 28px;
+    color: white;
+    background-color: rgba(58, 30, 56, 0.6);
+    box-shadow: 0 0 6px white;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.3s;
+}
+.home-button button:hover {
+    transition: all 0.3s;
+    box-shadow: 0 0 10px white;
+    background-color: rgb(58, 30, 56, 0.3);
+    
+}
